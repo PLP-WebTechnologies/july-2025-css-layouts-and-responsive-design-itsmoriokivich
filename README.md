@@ -1,51 +1,105 @@
-# 🧩 Assignment: CSS Layouts & Responsive Web Design
+# Canvas Clique Designs Portfolio
 
 ## Overview
+This is a **responsive personal portfolio webpage** built for the Canvas Click Designs brand. The purpose of this project is to demonstrate proficiency in **CSS Layouts** (Flexbox and Grid) and **Responsive Web Design (RWD)** principles. The page adapts seamlessly across **mobile, tablet, and desktop devices** while maintaining the brand identity.
 
-In this assignment, you'll learn how to bring structure, flexibility, and responsiveness to your web pages using modern CSS layout techniques—**Flexbox** and **Grid**. You'll also apply **Responsive Web Design (RWD)** principles to ensure your page adapts beautifully across screen sizes and devices.
+---
 
-## Objective
+## Features
 
-Build a responsive multi-section webpage that uses **Flexbox** and **CSS Grid** for layout and demonstrates how content adjusts across mobile, tablet, and desktop views. You'll showcase your ability to align and position content with precision, using media queries and flexible units to enhance the user experience on any device.
+- **Header & Navigation Bar**
+  - Displays the **Canvas Clique Designs logo**, brand name, and tagline.
+  - **Navigation links**: Home, Services, Projects, Contact.
+  - Fully responsive, styled with **Flexbox**.
 
-## What You’ll Practice
+- **Hero Section**
+  - Left-aligned text: name, subtitle (*“I am a Graphic Designer”*), and a brief description.
+  - Right-aligned profile image with **rounded corners**.
+  - **Call-to-action button** linking to the contact form.
+  - Layout uses **Flexbox** and stacks on mobile devices.
 
-* Structuring content using Flexbox for 1D layouts (rows or columns)
-* Using CSS Grid for complex 2D layouts
-* Applying responsive design techniques using media queries and relative units (`%, rem`, `vw`, etc.)
-* Creating layouts that gracefully adapt to different screen sizes without breaking
+- **Services Section**
+  - Grid display of **four main services**: Branding, Printing, Advertising, and Marketing.
+  - Each service card includes a title and short description.
+  - Responsive using **CSS Grid**.
 
-## Instructions
+- **Projects Section**
+  - Grid of project cards (initially 2 projects; scalable to more).
+  - Each card includes an **image**, **project title**, and **short description**.
+  - **Expandable descriptions** using CSS-only “Learn More” feature.
+  - Fully responsive using **CSS Grid**.
 
-Create a responsive webpage that contains multiple sections—such as a header, navigation bar, content area, sidebar, and footer. You are encouraged to use Flexbox in one part of the page and Grid in another (e.g., Grid for the main layout and Flexbox for cards or navigation alignment).
+- **Contact Section**
+  - Simple **contact form**: Name, Email, Message, and Submit button.
+  - Social media links with hover effects.
+  - Styled to match the brand color scheme.
 
-Make sure your layout:
+- **Footer**
+  - Brand copyright and styling consistent with the header.
 
-* Looks good on **desktop**, **tablet**, and **mobile**
-* Uses media queries to adjust column layout, spacing, or visibility
-* Demonstrates thoughtful content placement using both layout models
+---
 
-Avoid using any CSS frameworks or libraries—build everything with raw CSS.
+## Technologies Used
+
+- **HTML5** for semantic page structure.
+- **CSS3** for styling, including:
+  - **Flexbox** for header and hero layouts.
+  - **CSS Grid** for services and projects sections.
+  - **Media queries** for responsive design.
+  - **Transitions** and hover effects.
+- **Google Fonts**: *Montserrat* for all text with varying font weights to maintain hierarchy.
+- **No JavaScript or external frameworks** used — all functionality implemented with raw HTML and CSS.
+
+---
+
+## Brand & Design Details
+
+- **Primary Brand Color**: `#0004A7` (header, key headings)
+- **Secondary Background Color**: `#00487` (body)
+- **Text Color**: White for all text and descriptions.
+- **CTA Buttons**: White background, navy-blue text (`#00487`) with hover inversion.
+- **Fonts**:
+  - Name: Montserrat Black
+  - Subtitle: Montserrat Extra Bold
+  - Body text: Montserrat Semi Bold
+- **Images**: Rounded corners applied to hero and project images.
+- **Responsive Design**:
+  - Mobile-first approach.
+  - Hero section stacks on mobile devices.
+  - Grid adjusts number of columns based on screen width.
+
+---
 
 ## Deliverables
 
-Submit the following:
+- `index.html`: Complete semantic HTML structure for the portfolio page.
+- `style.css`: Fully responsive CSS file using Flexbox, Grid, media queries, and brand styling.
+- Images and assets:
+  - `logo.png` → Canvas Click Designs logo.
+  - `your-photo.jpg` → Profile image.
+  - Project images (`project1.jpg`, `project2.jpg`, etc.)  
 
-* `index.html`: Your HTML5 structure
-* `style.css`: Your responsive CSS file with Flexbox, Grid, and media queries
+---
 
-The code should demonstrate:
+## How to View
 
-* Clear use of Flexbox and Grid
-* Responsiveness with proper breakpoints
-* Clean, maintainable CSS structure with helpful comments
+1. Clone or download the repository.  
+2. Open `index.html` in any modern web browser (Chrome, Firefox, Edge, Safari).  
+3. Resize the browser window or view on different devices to test responsiveness.
 
-## Tips
+---
 
-* Effective use of Flexbox and CSS Grid layout techniques
-* Visual clarity and logical content flow across screen sizes
-* Proper use of media queries and responsive units
-* Code readability, organization, and best practices
-* Creativity and attention to layout detail
+## Key Notes
+
+- The project demonstrates **modern CSS layout techniques** and **responsive design principles**.  
+- All components are **built with raw HTML and CSS**, ensuring full understanding of layout mechanics.  
+- The design can be easily extended with additional projects or services without changing the core structure.  
+
+---
+
+## Author
+
+**Canvas Click Designs** – Bringing your creative vision to life through visually stunning web and graphic designs.
+
 
 
